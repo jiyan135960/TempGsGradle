@@ -1,0 +1,136 @@
+ext {
+    //AndroidSupportAppcompoat 版本
+    AndroidSupportAppcompoat = "com.android.support:appcompat-v7:27.1.1"
+    //implementation "com.google.code.gson:gson:$gson_version"
+    gson_version = "2.8.4"
+    //implementation "com.squareup:kotlinpoet:$kotlin_poet"
+    kotlin_poet = "0.7.0"
+    //implementation "io.reactivex.rxjava2:rxjava:$rxjava2_version"
+    rxjava2_version = "2.1.14-RC1"
+    //implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlin_version"
+    rxKotlin_version = "2.2.0"
+    //implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    //testImplementation "com.squareup.retrofit2:retrofit-mock:$retrofit_version"
+    retrofit_version = "2.4.0"
+    //implementation "com.squareup.retrofit2:adapter-rxjava2:$adapter_rxjava2_version"
+    adapter_rxjava2_version = "2.4.0"
+    //implementation "com.squareup.retrofit2:converter-gson:$converter_gson_version"
+    converter_gson_version = "2.0.2"
+    //implementation "io.reactivex.rxjava2:rxandroid:$rxAndroid_version"
+    rxAndroid_version = "2.0.2"
+    //implementation "com.dhh:rxlifecycle2:$rxLifecycle_version"
+    rxLifecycle_version = "1.7"
+    //implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_logging_version"
+    okhttp_logging_version = "3.10.0"
+    //implementation "com.facebook.stetho:stetho:$stetho_version"
+    //aimplementationpi "com.facebook.stetho:stetho-okhttp3:$stetho_version"
+    stetho_version = "1.5.0"
+    //implementation "org.greenrobot:greendao:$green_dao_version"
+    green_dao_version = "3.2.2"
+    //implementation "com.google.dagger:dagger:$dagger_version"
+    //implementation "com.google.dagger:dagger-android:$dagger_version"
+    //implementation "com.google.dagger:dagger-android-support:$dagger_version"
+    //kapt "com.google.dagger:dagger-android-processor:$dagger_version"
+    dagger_version = "2.16"
+    //测试
+    //testImplementation "org.robolectric:robolectric:$roboletric_version"
+    robolectric_version = "3.8"
+    roboletric_version = "3.8"
+    //testImplementation "org.mockito:mockito-core:$mockito_version"
+    //androidTestImplementation "org.mockito:mockito-android:$mockito_version"
+    mockito_version = "2.18.3"
+
+    //implementation "com.gs-robot.android:gaussian-common-lib:$gaussian_common_lib"
+    gaussian_common_lib = "0.1.158-SNAPSHOT"
+
+    //implementation "com.gs-robot.android:gaussian-generate-annotation:$gaussian_annotation"
+    gaussian_annotation = "0.1.0-SNAPSHOT"
+
+    //kapt "com.gs-robot.android:gaussian-generate-processor:$gaussian_processor"
+    gaussian_processor = "0.1.22-SNAPSHOT"
+
+    //implementation "com.gs-robot.android:gaussian-generate-service:$gaussian_service"
+    gaussian_service = "0.1.64-SNAPSHOT"
+
+    //implementation "com.gs-robot.android:gaussian-datasdk-lib:$gaussian_data_lib"
+    gaussian_data_lib = "0.1.77-SNAPSHOT"
+
+    gaussian_viewmodel = "0.1.75-SNAPSHOT"
+
+    GsCommSDK = "com.gs-robot.android:gaussian-common-lib:$gaussian_common_lib"
+    GsDataSDK = "com.gs-robot.android:gaussian-datasdk-lib:$gaussian_data_lib"
+    GsServiceSDK = "com.gs-robot.android:gaussian-generate-service:$gaussian_service"
+    GsViewModelSDK = "com.gs-robot.android:gaussian-generate-viewmodel:$gaussian_viewmodel"
+
+    Gson = "com.google.code.gson:gson:$gson_version"
+    Retrofit = "com.squareup.retrofit2:retrofit:$retrofit_version"
+    RetrofitRxJava2Adapter = "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    RetrofitGsonConverterAdapter = "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    RxJava2 = "io.reactivex.rxjava2:rxjava:$rxjava2_version"
+    RxKotlin2 = "io.reactivex.rxjava2:rxkotlin:$rxKotlin_version"
+    RxAndroid2 = "io.reactivex.rxjava2:rxandroid:$rxAndroid_version"
+    RxLifecycle = "com.dhh:rxlifecycle2:$rxLifecycle_version"
+    GreenDAO = "org.greenrobot:greendao:$green_dao_version"
+    RxBinding2Kotlin = "com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1"
+    Dagger = "com.google.dagger:dagger:$dagger_version"
+    DaggerAndroid = "com.google.dagger:dagger-android:$dagger_version"
+    DaggerAndroidSupport = "com.google.dagger:dagger-android-support:$dagger_version"
+    DaggerAndroidProcessor = "com.google.dagger:dagger-android-processor:$dagger_version"
+    GifDrawable = "pl.droidsonroids.gif:android-gif-drawable:1.2.12"
+
+    //功能模块依赖地址:
+
+    //控制面板(暂时保留)
+    ControlPanel = "com.gs-robot.android:gaussian-function-controlpanel:0.1.71-SNAPSHOT"
+    //控制面板Trunk
+    ControlPanelTrunk = "com.gs-robot.android:gaussian-function-controlpanel-trunk:0.1.26-SNAPSHOT"
+    //控制面板50
+    ControlPanel50 = "com.gs-robot.android:gaussian-function-controlpanel50:0.1.21-SNAPSHOT"
+    //控制面板75
+    ControlPanel75 = "com.gs-robot.android:gaussian-function-controlpanel75:0.1.23-SNAPSHOT"
+    //自动执行任务模块
+    AutoWork = "com.gs-robot.android:gaussian-function-autowork:0.1.64-SNAPSHOT"
+    //任务选择模块
+    TaskSelection = "com.gs-robot.android:gaussian-function-taskselection:0.1.123-SNAPSHOT"
+    //菜单模块
+    Menu = "com.gs-robot.android:gaussian-function-menu:0.1.92-SNAPSHOT"
+    //Abnormal模块
+    Abnormal = "com.gs-robot.android:gaussian-function-abnormal:0.1.21-SNAPSHOT"
+    //设备状态模块
+    DeviceState = "com.gs-robot.android:gaussian-function-devicestate:0.1.24-SNAPSHOT"
+    //1.9兼容模块
+    ControlCompatible = "com.gs-robot.android:gaussian-compatible-19:0.1.46-SNAPSHOT"
+    //清洗模式配置模块
+    CleanConfiguration = "com.gs-robot.android:gaussian-function-cleanconfiguration:0.1.31-SNAPSHOT"
+    //锁屏模块
+    LockScreen = "com.gs-robot.android:gaussian-function-lockscreen:0.1.14-SNAPSHOT"
+
+    ControlPanelAllModes="com.gs-robot.android:gaussian-function-controlpanel-allmodes:0.1.03-SNAPSHOT"
+    ControlPanelAllModes50="com.gs-robot.android:gaussian-function-controlpanel-allmodes-50:0.1.02-SNAPSHOT"
+    ControlPanelAllModes75="com.gs-robot.android:gaussian-function-controlpanel-allmodes-75:0.1.02-SNAPSHOT"
+    ControlPanelAllModesBase="com.gs-robot.android:gaussian-function-controlpanel-allmodes-base:0.1.03-SNAPSHOT"
+    OperationalVideo="com.gs-robot.android:gaussian-function-operational_video:0.1.09-SNAPSHOT"
+    DelayTaskSetting="com.gs-robot.android:gaussian-function-delay-task:0.1.06-SNAPSHOT"
+    ControlPanelMini="com.gs-robot.android:gaussian-function-controlpanel_mini:0.0.1-SNAPSHOT"
+}
+
+//统一添加开发工具依赖
+try {
+    rootProject.childProjects.values().each {
+        it.afterEvaluate {
+            if (it.plugins.hasPlugin('com.android.application')) {
+                println("$it.name is android application")
+                def dependencies = it.getDependencies()
+                dependencies.add('debugImplementation', 'com.didichuxing.doraemonkit:doraemonkit:1.1.2')
+                dependencies.add('releaseImplementation', 'com.didichuxing.doraemonkit:doraemonkit-no-op:1.1.2')
+                dependencies.add('debugImplementation', 'com.squareup.leakcanary:leakcanary-android:1.6.3')
+                dependencies.add('debugImplementation', 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3')
+                dependencies.add('releaseImplementation', 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3')
+            }
+        }
+    }
+} catch (ignored) {
+}
+rootProject.allprojects {
+    it.repositories.maven { url "https://jitpack.io" }
+}
